@@ -1,0 +1,142 @@
+/* HERIPRET Estelle */
+body { 
+	background-image : url("../images/background.jpg");
+	background-position : center;
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-size : cover;
+	color : black;
+	font-size : 100%;
+	font-family : 'Georgia', serif;
+}
+
+header { 
+	color : white;
+	text-align : center;
+	text-transform : uppercase;
+	font-weight : bold;
+	font-size : 40px;
+}
+
+footer {
+	text-align : center;
+	font-size : 12px;
+	font-weight : 500;
+	font-style : oblique;
+	color : white;
+	background-color : #AC8359;
+	margin : 2px auto;
+	width : 50%;
+}
+
+#barre {
+	margin-left : 35px;
+}
+
+#barre input {
+	font-size : 100%;
+}
+
+#barre button {
+	font-size : 100%;
+}
+
+#menu {
+	font-family : 'Oswald', serif;
+	font-size : 1.4em;
+	line-height : 40px;
+	list-style : none;
+	margin: 0 35px 0 35px;
+}
+
+#menu ul {
+	list-style : none;
+	text-align : center;
+	height : 40px;
+	background-color : #AC8359;
+	padding : 0;
+}
+
+#menu li {
+	display : block;
+}
+
+#menu li.bouton_gauche {
+	float : left;
+}
+
+#menu li.bouton_droit {
+	float : right;
+}
+
+#menu li.bouton_droit a{
+	color :black;
+	font-weight : bold;
+}
+
+#menu a {
+	text-decoration : none;
+	padding-left : 10px;
+	padding-right : 10px;
+	color : white;
+	display : block;
+	transition : .3s background-color;
+	width : 200px;
+}
+
+#menu a:hover {
+	text-decoration : none;
+	background-color : #005f5f;
+}
+
+#menu li ul {
+	position : absolute;
+}
+
+.sous_menu {
+	list-style : none;
+	text-align : center;
+	background-color : #AC8359;
+	padding : 0;
+}
+
+#menu ul li ul{
+	display : none;
+}
+
+#menu ul li:hover ul{
+	display : block;
+}
+
+section {
+	margin : 0 35px 0 35px;
+	background-color :#C2A385 ;
+}
+
+table {
+	border-spacing : 100px 20px;
+	font-size : 26px;
+	text-align : center;
+	margin : auto;
+}
+
+table#album img {
+	max-height : 250px;
+	max-width : 250px;
+	box-shadow : 8px 8px 10px black; 
+	border-radius : 70px;
+}
+
+table#album img:hover {
+	transform : scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
