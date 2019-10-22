@@ -1,17 +1,18 @@
-#Phototheque
+# Photothèque - Licence Informatique
 
-HERIPRET Estelle
+## Introduction
 
 Création d'une photothèque numérique lors de ma deuxième année de Licence Informatique.
 
-Pour débuter cliquer sur 'accueil.php' c'est la page qui d'accueil qui explique le fonctionnement du site.
+Pour débuter cliquer sur 'accueil.php' c'est la page d'accueil qui explique le fonctionnement du site.  
 La classe 'ImageForm.php' permet d'ajouter une image ainsi que sa description dans la base de donnée locale mais aussi de créer la vignette.
 
 Des captures d'écrans ont été faites pour vous permettre de voir le rendu final (voir dossier screens).
 
+## Base de données
 
 La base de données se présente ainsi :
-##Table « image »
+### Table « image »
 titre : varchar(255)
 auteur : varchar(255)
 urlphoto : text
@@ -24,13 +25,13 @@ mime : text
 motscles : varchar(255)
 → primary key (nom)
 
-##Table « membres »
+### Table « membres »
 id : int → auto-increment
 pseudo : varchar(255)
 motdepasse : text
 → primary key (id)
 
-##Table « imagesusers »
+### Table « imagesusers »
 id : int
 nom : varchar(255)
 → primary key (id)
